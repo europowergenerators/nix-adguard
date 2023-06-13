@@ -1,0 +1,6 @@
+{
+    "[nix]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "jnoortheen.nix-ide"
+      },
+}
