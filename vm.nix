@@ -2,7 +2,10 @@
 { pkgs, ... }: {
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
-  imports = [ ./adguard.nix ];
+  imports = [
+    ./adguard.nix
+    ./dnsmasq.nix
+  ];
 
   virtualisation =
     {
